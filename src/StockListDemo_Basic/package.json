@@ -1,0 +1,23 @@
+{
+  "name": "StockListDemo_Basic",
+  "version": "1.0.0",
+  "description": "A minimal integration between Lightstreamer JavaScript Client library and Electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lightstreamer/Lightstreamer-example-StockList-client-electron.git"
+  },
+  "keywords": [
+    "Electron",
+    "Lighstreamer"
+  ],
+  "author": "Lightstreamer Srl",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/Lightstreamer/Lightstreamer-example-StockList-client-electron",
+  "devDependencies": {
+    "electron-prebuilt": "^0.36.0"
+  }
+}
