@@ -26,7 +26,7 @@
     <link rel="stylesheet" type="text/css" href="css/table.css" />
   </head>
   <body>
-    <a href="https://github.com/Lightstreamer/Lightstreamer-example-StockList-client-javascript" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0; z-index:1" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
+    <a href="https://github.com/Lightstreamer/Lightstreamer-example-StockList-client-electron" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0; z-index:1" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
     <div id="wrap">
       <table width="766" border="0">
         <tr>
@@ -207,7 +207,7 @@
           // in accordance with the port configuration in the factory lightstreamer_conf.xml
           // (although the https port is not open by the factory lightstreamer_conf.xml)
 
-          var lsClient = new LightstreamerClient(protocolToUse+"//push.lightstreamer.com","DEMO");
+          var lsClient = new LightstreamerClient(protocolToUse+"//localhost:"+portToUse,"DEMO");
 
           lsClient.connectionSharing.enableSharing("DemoCommonConnection", "ATTACH", "CREATE");
           lsClient.addListener(new StatusWidget("left", "0px", true));
@@ -218,7 +218,7 @@
       </script>
       <!-- JavaScript code specific of this application -->
       <script type="text/javascript">
-
+        // use requirejs() to avoid conflicts with node's require()
         requirejs(["js/lsClient","Subscription","StaticGrid"],
           function(lsClient,Subscription,StaticGrid) {
 
@@ -230,7 +230,7 @@
                 //cleaning
                 return;
               }
-              var cold = (key.substring(4) % 2 == 1) ? "#eeeeee" : "#ddddee";
+              var cold = (key.substring(4) % 2 == 1) ? "#ffffff" : "#b6cf87";
               info.setAttribute("yellow", cold, "backgroundColor");
             }
           });

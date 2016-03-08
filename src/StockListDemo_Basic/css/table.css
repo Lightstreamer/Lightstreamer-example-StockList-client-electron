@@ -16,25 +16,25 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
- 
 .demoTitle {
-  font-family: Verdana, Arial, Helvetica, Sans-serif;
+  font-family: 'Lato', Calibri, Arial, sans-serif;
   font-size: 9pt;
   color: #000000;
   font-weight: bold;
   text-align: right;
 }
 .tableTitle {
-  font-family: Verdana, Arial, Helvetica, Sans-serif;
-  font-size: 7pt;
+  font-family: 'Lato', Calibri, Arial, sans-serif;
+  font-size: 9pt;
   color: #ffffff;
-  background-color: #9494ce;
+  background-color: #4b8e4b;
   font-weight: bold;
   text-align: right;
+  height: 35px;
 }
 .disc {
 	margin-top: 5px;
-  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-family: 'Lato', Calibri, Arial, sans-serif;
 	font-size: 7pt;
 	color: #000000;
 	background: #ffffff;
@@ -42,38 +42,44 @@
 	text-align: left;
 }
 .stockNameOdd {
-  font-family: Verdana, Arial, Helvetica, Sans-serif;
-  font-size: 8pt;
-  color: #000080;
-  background-color: #eeeeee;
+  font-family: 'Lato', Calibri, Arial, sans-serif;
+  font-size: 9pt;
+  color: #4b8e4b;
+  background-color: #ffffff;
   font-weight: bold;
   text-align: left;
 }
 .stockNameEven {
-  font-family: Verdana, Arial, Helvetica, Sans-serif;
-  font-size: 8pt;
-  color: #000080;
-  background-color: #ddddee;
+  font-family: 'Lato', Calibri, Arial, sans-serif;
+  font-size: 9pt;
+  color: #4b8e4b;
+  background-color: #b6cf87;
   font-weight: bold;
   text-align: left;
 }
 .coldOdd {
-  font-family: Verdana, Arial, Helvetica, Sans-serif;
-  font-size: 8pt;
+  font-family: 'Lato', Calibri, Arial, sans-serif;
+  font-size: 9pt;
   color: #000000;
-  background-color: #eeeeee;
+  background-color: #ffffff;
   font-weight: normal;
   text-align: right;
+  height: 30px;
 }
 .coldEven {
-  font-family: Verdana, Arial, Helvetica, Sans-serif;
-  font-size: 8pt;
+  font-family: 'Lato', Calibri, Arial, sans-serif;
+  font-size: 9pt;
   color: #000000;
-  background-color: #ddddee;
+  background-color: #b6cf87;
   font-weight: normal;
   text-align: right;
+  height: 30px;
 }
 #wrap {
   width: 766px;
   margin: 0 auto;
+}
+html, html a {
+  -webkit-font-smoothing: antialiased;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
 }
