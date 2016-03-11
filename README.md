@@ -28,7 +28,7 @@ If you want to install a version of this demo pointing to your local Lightstream
 * Get the `lightstreamer.js` file from the [latest Lightstreamer distribution](http://www.lightstreamer.com/download) and put it in the `src/StockListDemo_Basic/js` folder of the demo (if that is the case, please create it). Alternatively, you can build a `lightstreamer.js` file from the
   [online generator](http://www.lightstreamer.com/docs/client_javascript_tools/generator.html).
   In that case, be sure to include the LightstreamerClient, Subscription, StaticGrid and StatusWidget modules and to use the "Use AMD" version.
-* Get the `require.js` file form [requirejs.org](http://requirejs.org/docs/download.html) and put it in the `src/StockListDemo_Basic/js` folder of the demo.
+* Get the `require.js` file from [requirejs.org](http://requirejs.org/docs/download.html) and put it in the `src/StockListDemo_Basic/js` folder of the demo.
 * From command line go into the `Lightstreamer-example-StockList-client-electron` folder and run ```npm install```.
 
 The client demo configuration assumes that Lightstreamer Server, Lightstreamer Adapters, and this client are launched on the same machine. If you need to target a different Lightstreamer server, please search this line:
