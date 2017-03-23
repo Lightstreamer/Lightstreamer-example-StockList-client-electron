@@ -6,7 +6,7 @@ This project contains a demo application showing the integration between the Lig
 ## Live Demo
 
 ![Demo ScreenShot](screen_basicstocklist_large.png)<br>
-###[![](http://demos.lightstreamer.com/site/img/play.png) View OS X live demo ](http://demos.lightstreamer.com/StockListDemo_Electron/deploy-darwin-x64.zip)<br> [![](http://demos.lightstreamer.com/site/img/play.png) View Windows live demo](http://demos.lightstreamer.com/StockListDemo_Electron/deploy-win32-x64.zip)<br> [![](http://demos.lightstreamer.com/site/img/play.png) View Linux live demo](http://demos.lightstreamer.com/StockListDemo_Electron/deploy-linux-x64.zip)
+### [![](http://demos.lightstreamer.com/site/img/play.png) View OS X live demo ](http://demos.lightstreamer.com/StockListDemo_Electron/deploy-darwin-x64.zip)<br> [![](http://demos.lightstreamer.com/site/img/play.png) View Windows live demo](http://demos.lightstreamer.com/StockListDemo_Electron/deploy-win32-x64.zip)<br> [![](http://demos.lightstreamer.com/site/img/play.png) View Linux live demo](http://demos.lightstreamer.com/StockListDemo_Electron/deploy-linux-x64.zip)
 (download the platform source zip; unzip it; launch "lightstreamer-basic-stock-list-demo" executable.)
 
 ## Details
