@@ -53,7 +53,7 @@ Electron Forge creates the `out` folder where your package will be located.
 * [Lightstreamer - Stock-List Demos - HTML Clients](https://github.com/Lightstreamer/Lightstreamer-example-StockList-client-javascript#basic-stock-list-demo---html-client)
 * [Lightstreamer - Basic Stock-List Demo - Flutter](https://github.com/Lightstreamer/Lightstreamer-example-StockList-client-flutter)
 * [Lightstreamer - Basic Stock-List Demo - React Native](https://github.com/Lightstreamer/Lightstreamer-example-StockList-client-reactnative)
-* [Lightstreamer - Basic Stock-List Demo - Cordova](https://github.com/Lightstreamer/Lightstreamer-example-StockList-client-phonegap)
+* [Lightstreamer - Basic Stock-List Demo - Cordova](https://github.com/Lightstreamer/Lightstreamer-example-StockList-client-cordova)
 
 ## Lightstreamer Compatibility Notes
 
